@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" type="imagex/png" href="./Imagens/icons8-arco-iris-16.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AS MENINAS SUPER PODEROSAS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    
+    <header class="header">
+       
+        <img src="Imagens/logo_as_meninas_super_poderosas.png" alt="" class="header_logo">
+
+
+    <span id="hamburguer" class="material-symbols-outlined">
+menu
+ </span>
+        <nav id="itens_menu" class="header-nav">
+<ul>
+    <li><a href="https://powerpuff.fandom.com/pt-br/wiki/Lindinha" target="_blank"> Lindinha</a></li>
+    <li><a href="https://powerpuff.fandom.com/pt-br/wiki/Docinho"target="_blank">Docinho</a></li>
+    <li><a href="https://powerpuff.fandom.com/pt-br/wiki/Florzinha"target="_blank">Florzinha</a></li>
+    <li><a href="https://powerpuff.fandom.com/pt-br/wiki/As_Meninas_Superpoderosas_(personagens)"target="_blank">Fandom</a></li>
+</ul>
+
+        </nav>
+    
+    
+    </header>
+   
+        <img src  ="Imagens/MENINAS_000.jpg" class="header-imagem">
+    </header>
+ 
+    <script>
+        var hamburguer = document.getElementById('hamburguer');
+        var intensMenu = document.getElementById('itens_menu');
+
+hamburguer.addEventListener('click',aparecer);
+
+function aparecer(){
+    if(intensMenu.style.display == 'block'){
+        intensMenu.classList.remove('show');
+    }else{
+        intensMenu.classList.toggle('show');
+}
+}
+        </script>
+
+
+<footer>
+    <a href="https://m.facebook.com/taiara.oliveira.56/"target="_blank"> <img src="Imagens/facebook_2168281.png" class="img"alt=""></a>
+    <a href="https://www.instagram.com/taiaraoficial/"target="_blank"><img src="Imagens/instagram_4494468.png" class="img" alt=""></a>
+    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"target="_blank"><img src="Imagens/twitter_4494465.png" class="img" alt=""></a>
+    <a href="https://web.whatsapp.com/"target="_blank"><img src="Imagens/whatsapp_4494470.png" class="img" alt=""></a>
+    <br>
+@2023 Taiara Oliveira ❤️
+</footer>
+</body>
+</html>

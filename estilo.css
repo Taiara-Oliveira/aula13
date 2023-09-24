@@ -1,0 +1,164 @@
+html{
+    font-family: sans-serif;
+    
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    text-align: center;
+    margin: auto;
+    background-color: #F288C2;
+
+}
+
+.header_logo{
+    
+    width: 18em;
+    height: auto;
+}
+
+#hamburguer{
+    background-color: #6dc4c4;
+    color: #F288C2;
+    display: block;
+    text-align: center;
+    padding: .3em;
+    cursor: pointer;
+    font-size: 2em;
+
+}
+
+.header-nav{
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: #F288C2;
+    display: none;
+}
+
+.header-nav.show{
+    display: block;
+}
+
+ul{
+    margin: 0;
+}
+
+.header-nav ul{
+    list-style-type: none;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: .8em;
+}
+
+.header-nav a{
+    color: #b62173;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+}
+
+.header-nav a:hover{
+    background-color: color-mix(in srgb, #F288C2,#aed6d6 80%);
+    color: #acecec;
+}
+
+body{
+    background-color: #8BD9D9;
+}
+
+
+.header-imagem{
+    width: 100%;
+   
+    
+}
+img{
+    width: 100%;
+}
+footer{
+    background-color:#6dc4c4;
+    color: #7e2648;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Edu SA Beginner', cursive;
+    display: block;
+
+    
+}
+
+.img{
+    width: 55px;
+    align-items: center;
+    display: block;
+    padding: 1em;
+    display: flex;
+    margin: auto;
+    
+   
+}
+
+@media screen and (min-width: 48em){
+    #hamburguer{
+        display: none;}
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #F288C2;
+        }
+
+        .header_logo{
+            margin-left: 2em;
+        }
+
+        .header-nav{
+            display: block;
+        }
+
+        .header-nav ul{
+            margin-right: 2em;
+            font-size: .9em;
+        }
+
+        .header-nav li{
+            display: inline-block;
+        }
+
+        .header-nav a{
+            border-radius: 5px;
+        }
+
+        .header-nav a:hover{
+            background-color: #8BD9D9;
+            color: #F288C2;
+        }
+        
+        
+        
+        .header-imagem{
+            width: 100%;
+        }
+img{
+    width: 100%;
+}
+                
+       
+
+        .img{
+            margin-right: 2em;
+            align-items: center;
+            display:inline-block;
+           
+        }
+    
+        }
+
+
+    
